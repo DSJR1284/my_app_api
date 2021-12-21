@@ -1,3 +1,3 @@
 class Post < ApplicationRecord
-    belong_to :board
+    belongs_to :board
 end
