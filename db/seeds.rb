@@ -8,7 +8,7 @@
 
 # Doug = Board.create(title: "Who Am I")
 
-# Post.create(image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvELImLpXH6bMAfLRLInWAa1zsT3Pt2lWIuA&usqp=CAU", description: "I was born at Down State Medical and raise in Crown Heights Brooklyn, NY", board_id: 1)
+Post.create(image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvELImLpXH6bMAfLRLInWAa1zsT3Pt2lWIuA&usqp=CAU", description: "I was born at Down State Medical and raise in Crown Heights Brooklyn, NY", board_id: 1)
 
 Post.create(image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkNMNM6DJQkc6n35EHWBmceFymZIBuKi36NQ&usqp=CAU", description: "I am currently a student at Flatiron, hoping to break into the tech industry", board_id: 1)
 
