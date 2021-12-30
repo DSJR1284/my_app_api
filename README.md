@@ -1,24 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## My App Api 
 
-Things you may want to cover:
+# Getting Started 
+To get started with the api for this app fork and clone this repo. In the root directory install the needed gems:
 
-* Ruby version
+ $ Bundle install
 
-* System dependencies
+Next, migrate and seed the database 
 
-* Configuration
+$ rake db:migrate 
+$ rake db:seed 
 
-* Database creation
+To start the local backend server, from the root directory, run: 
 
-* Database initialization
+$ rails server 
 
-* How to run the test suite
+You should see localhost: 3000. 
+ 
+ Navagaite there to see the data for the backend of the app. 
 
-* Services (job queues, cache servers, search engines, etc.)
+ To see the front end check out DSJR1284
+/
+my_app_client. 
 
-* Deployment instructions
+# Contributing
+Bug reports and pull requests are welcome on GitHub at https://github.com/DSJR1284/my_app_api. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct. Please read CONTRIBUTING.md for details.
 
-* ...
+# License
+This project is licensed under the terms of the MIT License.
